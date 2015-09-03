@@ -8,7 +8,6 @@ all:${PDF}
 
 ${PDF}:%.pdf:%.tex
 	pdflatex $<
-	pdflatex $<
 	rm -f ${AUX} ${LOG} ${OUT}
 
 clean:
