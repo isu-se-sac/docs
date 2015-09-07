@@ -14,9 +14,9 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 %	DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 
 \documentclass{letter}
 
@@ -25,50 +25,67 @@
 \addtolength{\hoffset}{-0.3in}
 \addtolength{\textheight}{2cm}
 
-%\longindentation=0pt % Un-commenting this line will push the closing "Sincerely," to the left of the page
+% Push the closing "Sincerely," to the left of the page
+\longindentation=0pt
 
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 %	YOUR NAME & ADDRESS SECTION
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 
-\signature{John Smith} % Your name for the signature at the bottom
+ % Your name for the signature at the bottom
+\signature{
+  Nik Kinkel \\
+  Garrett Meier \\
+  Zach Miller \\
+  Anne Ore \\
+  Victoria Rasavanh \\
+  Paul Schlenker \\
+  Shaun Vanweelden \\
+  Derek Yu
+}
 
-\address{123 Broadway \\ City, State 12345 \\ (000) 111-1111} % Your address and phone number
+\address{
+  ISU Software Engineering \\
+  Student Advisory Council \\
+  se-sac@iastate.edu
+}
 
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 
 \begin{document}
 
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 %	ADDRESSEE SECTION
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 
-\begin{letter}{Director \\ Corporation \\ 123 Pleasant Lane \\ City, State 12345} % Name/title of the addressee
+% Name/title of the addressee
+\begin{letter}{Dr. Johnny Wong \\ 202 Atanasoff \\ Ames, IA 50011}
 
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 %	LETTER CONTENT SECTION
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 
-\opening{\textbf{Dear Sir or Madam,}}
- 
+\opening{\textbf{Dear Dr. Wong,}}
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum lacinia odio, quis tincidunt neque suscipit ut. Donec neque nisl, volutpat sed posuere eget, congue et odio. Donec eu neque tortor. Pellentesque lacinia, arcu vitae molestie euismod, lectus est sodales nisi, id vehicula nisl massa vel felis. In hac habitasse platea dictumst. Aliquam dui erat, bibendum et posuere eget, placerat sit amet ipsum. Phasellus congue, est ac cursus tempor, tellus nibh rhoncus arcu, sit amet scelerisque magna turpis nec turpis. Sed lacinia orci ac nunc convallis feugiat. Sed molestie, nisl et scelerisque consequat, elit quam pellentesque sem, eu pharetra mi elit quis libero. Mauris porta urna in orci sagittis fermentum. Aenean nec elit id ligula venenatis ornare. Nam urna neque, aliquet in sollicitudin sed, molestie ut tellus.
 
 Vivamus consectetur, mauris sit amet pharetra pharetra, tortor ante dignissim purus, vitae pellentesque ante lorem eu magna. Morbi at leo leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed feugiat volutpat risus, a ullamcorper magna dictum quis. Nam dictum enim et lectus consectetur consectetur. Vestibulum vitae eros vel elit venenatis ornare ac sed felis. Nunc et laoreet libero. Cras ut fermentum dui.
 
 Thank you for your time and consideration.
 
-I look forward to your reply.
+We look forward to your reply.
 
-\vspace{2\parskip} % Extra whitespace for aesthetics
+%\vspace{2\parskip} % Extra whitespace for aesthetics
 \closing{Sincerely,}
-\vspace{2\parskip} % Extra whitespace for aesthetics
 
-\ps{P.S. You can find additional information attached to this letter.} % Postscript text, comment this line to remove it
+% Postscript text, comment this line to remove it
+%\ps{P.S. You can find additional information attached to this letter.}
 
-\encl{Copyright permission form} % Enclosures with the letter, comment this line to remove it
+% Enclosures with the letter, comment this line to remove it
+%\encl{Copyright permission form}
 
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 
 \end{letter}
- 
+
 \end{document}
