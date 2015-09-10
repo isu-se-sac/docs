@@ -8,7 +8,7 @@ SE SAC Agenda *[mm-dd-yyyy of meeting]*
 
 *Body:*
 
-SE SAC will meet at 12:45pm in 125 Atanasoff. 
+SE SAC will meet on *[mm-dd-yyyy]* at 12:15pm in 125 Atanasoff. 
 
 Agenda:
 * *[Item 1]*
