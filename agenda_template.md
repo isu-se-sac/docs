@@ -3,9 +3,11 @@
 ## Pre-meeting Email
 
 *Subject:*
+
 SE SAC Agenda *[mm-dd-yyyy of meeting]*
 
 *Body:*
+
 SE SAC will meet at 12:45pm in 125 Atanasoff. 
 
 Agenda:
@@ -15,9 +17,11 @@ Agenda:
 ## Post-meeting Email
 
 *Subject:*
+
 SE SAC Minutes *[mm-dd-yyyy of meeting]*
 
 *Body:*
+
 Agenda:
 * *[Item 1]*
   * *[Notes on Item 1]*
