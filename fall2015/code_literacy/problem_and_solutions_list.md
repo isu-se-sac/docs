@@ -12,11 +12,18 @@ What are the deficiencies in the current curriculum? etc.
 TODO: David
 
 
-### How can we fix this?
+### How can we fix this? and/or What's needed?
 Abstract level: what's needed to address issues? Where might
 this fit in the current curriculum? etc.
 
 TODO: Victoria
+
+
+### What doesn't work?
+AKA why this can't just be a student org thing. Talk about experiences
+with CyHack, etc.
+
+TODO: Anne
 
 
 ### Real world solutions
